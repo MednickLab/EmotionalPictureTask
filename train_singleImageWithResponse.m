@@ -1,4 +1,4 @@
-function train_singleWithEncode(studyID,subjectID,visitID)
+function train_singleImageWithResponse(studyID,subjectID,visitID)
 %if 1 %to run not as a function
 %clear
 %Runs the training words/images pairs of the WPA/PPT/EPT tasks for all studys.

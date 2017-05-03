@@ -32,8 +32,8 @@ if strcmp(sessionType,'Training')
         return
     end
     checkFiles(studyID,subjectID,visitID,0); %We check to see if data for a subject already exists
-    makeStim(studyID,subjectID,visitID,imageListID); %Make stim sets
-    train_singleWithEncode(studyID,subjectID,visitID);
+    makeStim_EPT(studyID,subjectID,visitID,imageListID); %Make stim sets
+    train_singleImageWithResponse(studyID,subjectID,visitID);
     
 elseif strcmp(sessionType,'Test1')
     okString = sprintf('You have chosen to run test 1 for subject %i, visit %i. Is this correct?',subjectID,visitID);

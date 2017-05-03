@@ -1,4 +1,4 @@
-function runStats_WPA_ACH(studyID,subjectID,visitID,testIDs)%Take human input to decide which version to run and what session
+function runStats_WPA(studyID,subjectID,visitID,testIDs)%Take human input to decide which version to run and what session
 %if 1 %to run not as a function
 %Creates stats a participant on the EPT task.
 %@Author: Ben Yetton
