@@ -23,9 +23,12 @@ The general structure consists of:
  # Pre-Packaged Examples
  ## Word Pair Associates
  - Encoding + two test sessions
+ - Was designed for ERPs, so focus cross is pail and constant, and screen is black
  - Stim are word pairs, and they are tested at test as intact (same as in encoding), rearanged (old words, but new pairing), new (both words new)
+ - Participants are allowed to take a break every x word pairs
  - Test sessions are recognition (old/new) and w. confidence
  - Word pairs are presented sequentually + a blink break between word pairs
+ - Stats are calculated for each sub (dprime - although this is a little weird because there are 3 options - intact, rearranged, new)
 
 ## EPT
 - 
