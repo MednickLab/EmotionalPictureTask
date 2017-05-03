@@ -1,0 +1,12 @@
+VARIABLE,useImages,numPrimacy,numRecency,numTrainStimFromEachValence,numTests,numRepetitions,trainBetweenStimDuration,trainStimDuration,testStimDuration,testBetweenStimDuration,encodingResponses,encodingInstructionBlurb,trainBlurb,test1InitBlurb,test2InitBlurb,acceptableTestAns,familAns,foilAns,testInstructBlurb,END
+NOTES,1:images 0:words,Number of primacy images to be taken from the neutral folder,Number of recency images to be taken from the neutral folder,The number of stimulus to be taken per valence. half with be famil and half will be foils. these will then be split into those that will be shown at test 1 and test 2 respectivly,Not used presently,Not used presently,Time between images after subject has ans all Qs,Time images are displayed for,Time images are displayed for,time between images at test after the confidence selection,Posible encoding answers,Instruction Text that displays below images at start of encoding,text that displays at start of training,text that displays at start of test 1,text that displays at start of test 2,The possible answers that subjects can enter at test,posible intact answers for test,posible rearanged answers for test,instructions that show at test,END
+VALUE,1,4,4,40,2,1,2,0.5,1,0.3,1,,,,,1,1,7,PRESENT\n\n1 = for high confidence - you are certain\n\n2 = average confidence - you are moderately sure\n\n3 = low confidence - you are not sure but you think it was present\n\nNOT PRESENT\n\n7 = high confidence - you are certain\n\n8 = average confidence - you are moderately sure\n\n9 = low confidence - you are not sure but you think it was NOT there,END
+,,,,,,,,,,,2,,,,,2,2,8,,END
+,,,,,,,,,,,3,,,,,3,3,9,,END
+,,,,,,,,,,,4,,,,,7,,,,END
+,,,,,,,,,,,5,,,,,8,,,,END
+,,,,,,,,,,,6,,,,,9,,,,END
+,,,,,,,,,,,7,,,,,,,,,END
+,,,,,,,,,,,8,,,,,,,,,END
+,,,,,,,,,,,9,,,,,,,,,END
+,,,,,,,,,,,,,,,,,,,,END
