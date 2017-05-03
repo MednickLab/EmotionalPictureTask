@@ -1,5 +1,5 @@
 # Generic Memory Task
-Generic MATLAB/Psychtoolbox code to run a variety of memory tasks. Can be used to create Word Pair Associates task, Emotional Picture Task, and many more. Handles images, words and word pairs as stimulus. Handles recognition and recall (words only) memory tests.
+Generic MATLAB/Psychtoolbox code to run a variety of memory tasks. Can be used to create Word Pair Associates (included) task, Emotional Picture Task (included), and many more. Handles images, words and word pairs as stimulus. Handles recognition and recall (words only) memory tests.
 The general structure consists of:
 
 - General "run" code that controls which session runs etc (e.g. runWPA)
@@ -65,9 +65,10 @@ The general structure consists of:
 ### Training
 ```train_pairsSequential``` Displays pairs of words or images one after another, with no response
 ```train_singleWithResponse``` Displays a single word or image, and asked for a response
-```train_threshold``` TODO
 
 ### Testing
+```test_recall``` Test cued recall (i.e. given one word, type its pair), or cued stem recall (given one word, and the first letter of the pair, recall the pair)
+```test_recall2Threshold``` Forces user to get some percentage accuracy during recall task before moving on. Words will continue to be displayed until accuracy above threshold. Useful to run right after training with all words to make sure encoding strenght is high enough.
 ```test_recog``` Displays images, image pairs, words or word pairs and asks for a response.
 ```test_recogSequential``` Displays word or image pairs, one after another, and asks for a response.
 
